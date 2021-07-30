@@ -9,10 +9,6 @@
   "author": "Alexander Mandrikov <mad.nunsez@gmail.com>",
   "license": "Apache License 2.0",
   "private": true,
-  "scripts": {
-    "predeploy": "make build",
-    "deploy": "gh-pages -d dist"
-  },
   "engines": {
     "node": ">= 16.3.0",
     "yarn": ">= 1.22.5"

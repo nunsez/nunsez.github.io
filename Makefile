@@ -10,4 +10,7 @@ serve:
 dev:
 	yarn vite
 
+deploy: build
+	yarn gh-pages -d dist
+
 .PHONY: build
