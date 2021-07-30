@@ -6,8 +6,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
+        "preact",
         "airbnb-base"
     ],
     "parser": "@typescript-eslint/parser",
@@ -19,9 +19,9 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
         "@typescript-eslint"
     ],
+    "ignorePatterns": ["dist", "node_modules"],
     "rules": {
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
