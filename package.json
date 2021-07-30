@@ -1,0 +1,10 @@
+{
+  "name": "nunsez.github.io",
+  "version": "0.0.1",
+  "description": "Resume",
+  "main": "index.js",
+  "repository": "git@github.com:nunsez/nunsez.github.io.git",
+  "author": "Alexander Mandrikov <mad.nunsez@gmail.com>",
+  "license": "Apache License 2.0",
+  "private": true
+}
