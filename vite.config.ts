@@ -8,6 +8,11 @@ const viteConfig: UserConfig = {
         jsxInject: `import { h, Fragment } from 'preact'`,
     },
     plugins: [prefresh()],
+    resolve: {
+        extensions: [
+            '.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.scss',
+        ],
+    },
 }
 
 export default viteConfig
