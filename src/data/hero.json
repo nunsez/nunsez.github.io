@@ -1,0 +1,16 @@
+{
+  "firstName": "Alexander",
+  "lastName": "Mandrikov",
+  "profession": "Frontend Developer",
+  "avatar": { "src": "avatar.jpg", "alt": "Avatar" },
+  "socialMedia": [
+    { "name": "GitHub", "src": "logo_github.png", "url": "https://github.com/nunsez" },
+    { "name": "LinkedIn", "src": "logo_linkedin.png", "url": "https://www.linkedin.com/in/alex-mandrikov" },
+    { "name": "HabrCareer", "src": "logo_habrCareer.png", "url": "https://career.habr.com/nunsez" }
+  ],
+  "contacts": [
+    { "name": "Location", "content": "Krasnoyarsk, Russia", "url": "#" },
+    { "name": "Web", "content": "nunsez.github.io", "url": "https://nunsez.github.io/" },
+    { "name": "Email", "content": "mad.nunsez@gmail.com", "url": "mailto:mad.nunsez@gmail.com" }
+  ]
+}
