@@ -1,7 +1,7 @@
-import { Hero } from './Hero'
-import { About } from './About'
-import { Skills } from './Skills'
-import { Projects } from './Projects'
+import { Hero } from './components/Hero'
+import { About } from './components/About'
+import { Skills } from './components/Skills'
+import { Projects } from './components/Projects'
 
 export const App = () => {
     return (

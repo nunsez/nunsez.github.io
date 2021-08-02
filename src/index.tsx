@@ -1,6 +1,6 @@
 import { render } from 'preact'
 
 import './styles'
-import { App } from './components/App'
+import { App } from './App'
 
 render(<App />, document.body)
