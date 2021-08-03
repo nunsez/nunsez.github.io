@@ -19,7 +19,7 @@ export const Hero = () => {
                     </h1>
                     <div class="d-flex justify-between align-center flex-wrap">
                         <p class="mr-3">{profession}</p>
-                        <div class="d-flex gap-x-1">
+                        <div class="d-flex gap-x-2">
                             {socialMedia.map((i) => (
                                     <a href={i.url} target="_blank" key={i.name} >
                                         <img src={i.src} width="30" height="30" class="rounded" />
