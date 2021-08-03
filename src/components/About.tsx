@@ -8,7 +8,7 @@ export const About = () => {
             <div class="container grid-2">
                 <div class="p-5 text-end">
                     <p class="text-bold">{header.toUpperCase()}</p>
-                    <p>{description}</p>
+                    <p class="fs-90">{description}</p>
                 </div>
                 <div class="p-5">
                     {content.map((i) => <p key={i}>{i}</p>)}

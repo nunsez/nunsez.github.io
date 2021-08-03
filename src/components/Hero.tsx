@@ -31,7 +31,7 @@ export const Hero = () => {
                         {contacts.map((i) => (
                             <div key={i.name}>
                                 <p class="text-bold">{i.name}</p>
-                                <p>
+                                <p class="fs-90">
                                     <a href={i.url}>{i.content}</a>
                                 </p>
                             </div>
