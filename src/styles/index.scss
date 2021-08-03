@@ -4,6 +4,16 @@ $primary: hsl(220, 75%, 65%); // hsl(49, 98, 60);
 $grey-light: hsl(0, 0%, 97%);
 $grey-dark: hsl(0, 0%, 96%);
 
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+);
+
 * {
     box-sizing: border-box;
 }
@@ -11,6 +21,12 @@ $grey-dark: hsl(0, 0%, 96%);
 body {
     background-color: $light;
     color: $dark;
+}
+
+main {
+    section:nth-of-type(2n + 1) {
+        filter: brightness(0.99);
+    }
 }
 
 a {
@@ -23,6 +39,12 @@ a {
 
     max-width: 1000px;
     margin: 0 auto;
+
+    background-color: $grey-light;
+
+    & > div:first-child {
+        background-color: $grey-dark;
+    }
 }
 
 .grid-2 {
@@ -38,7 +60,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $grey-light;
 
     img {
         border-radius: 100%;
@@ -54,11 +75,11 @@ a {
 }
 
 .p-5 {
-    padding: 3rem;
+    padding: map-get($spacers, 5);
 }
 
 .p-4 {
-    padding: 1.5rem;
+    padding: map-get($spacers, 4);
 }
 
 h1,
@@ -96,11 +117,11 @@ h2 {
 }
 
 .gap-x-1 {
-    column-gap: 0.5rem;
+    column-gap: map-get($spacers, 1);
 }
 
 .gap-x-3 {
-    column-gap: 1rem;
+    column-gap: map-get($spacers, 3);
 }
 
 .contacts {
@@ -117,5 +138,9 @@ h2 {
 }
 
 .mr-3 {
-    margin-right: 1rem;
+    margin-right: map-get($spacers, 3);
+}
+
+.text-end {
+    text-align: end;
 }
