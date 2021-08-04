@@ -15,7 +15,7 @@ export const Hero = () => {
                     <h1 class="name">
                         <span class="first-name">{firstName}</span>
                         <br/>
-                        <span class="last-name">{lastName}</span>
+                        <span class="last-name text-primary">{lastName}</span>
                     </h1>
                     <div class="d-flex justify-between align-center flex-wrap">
                         <p class="mr-3 text-italic">{profession}</p>
