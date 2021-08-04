@@ -11,14 +11,14 @@ export const Hero = () => {
                 <div class="avatar p-5">
                     <img src={avatar.src} alt="Avatar" width="200" height="200" />
                 </div>
-                <div class="p-5 mt-auto content">
+                <div class="p-5 mt-auto">
                     <h1 class="name">
                         <span class="first-name">{firstName}</span>
                         <br/>
                         <span class="last-name">{lastName}</span>
                     </h1>
                     <div class="d-flex justify-between align-center flex-wrap">
-                        <p class="mr-3">{profession}</p>
+                        <p class="mr-3 text-italic">{profession}</p>
                         <div class="d-flex gap-x-2">
                             {socialMedia.map((i) => (
                                     <a href={i.url} target="_blank" key={i.name} >
