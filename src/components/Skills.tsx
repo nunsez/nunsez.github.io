@@ -15,7 +15,7 @@ export const Skills = () => {
                             const { name, ico, url } = skill;
 
                             return (
-                                <a href={url} title={`${name} source link`} class="skills-item">
+                                <a href={url} title={`${name} source link`} class="skills-item" target="_blank">
                                     <img class="mr-2 rounded" src={ico} alt="ico" height="25" />
                                     <span class="text-primary">{name}</span>
                                 </a>
