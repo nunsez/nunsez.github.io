@@ -1,7 +1,7 @@
 {
   "firstName": "Alexander",
   "lastName": "Mandrikov",
-  "profession": "Frontend Developer",
+  "profession": "<Frontend Developer />",
   "avatar": { "src": "avatar.jpg", "alt": "Avatar" },
   "socialMedia": [
     { "name": "GitHub", "src": "logo_github.png", "url": "https://github.com/nunsez" },
