@@ -2,7 +2,7 @@
   "firstName": "Alexander",
   "lastName": "Mandrikov",
   "profession": "<Frontend Developer />",
-  "avatar": { "src": "avatar.jpg", "alt": "Avatar" },
+  "avatar": { "src": "avatar.png", "alt": "Avatar" },
   "socialMedia": [
     { "name": "GitHub", "src": "logo_github.png", "url": "https://github.com/nunsez" },
     { "name": "LinkedIn", "src": "logo_linkedin.png", "url": "https://www.linkedin.com/in/alex-mandrikov" },
