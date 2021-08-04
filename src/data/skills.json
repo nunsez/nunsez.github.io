@@ -1,6 +1,6 @@
 {
   "header": "Skills",
-  "description": "What I am using",
+  "description": "What I use",
   "skillsList": [
     { "name": "JavaScript", "ico": "skills/js.png", "url": "https://262.ecma-international.org/" },
     { "name": "TypeScript", "ico": "skills/ts.png", "url": "https://www.typescriptlang.org" },
