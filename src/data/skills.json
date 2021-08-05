@@ -1,20 +1,16 @@
-{
-  "header": "Skills",
-  "description": "What I use",
-  "skillsList": [
-    { "name": "JavaScript", "ico": "skills/js.png", "url": "https://262.ecma-international.org/" },
-    { "name": "TypeScript", "ico": "skills/ts.png", "url": "https://www.typescriptlang.org" },
-    { "name": "NodeJS", "ico": "skills/node.png", "url": "https://nodejs.dev/" },
-    { "name": "Git", "ico": "skills/git.png", "url": "https://git-scm.com/" },
-    { "name": "Yarn", "ico": "skills/yarn.png", "url": "https://yarnpkg.com/" },
-    { "name": "HTML5", "ico": "skills/html5.png", "url": "https://html.spec.whatwg.org/" },
-    { "name": "CSS", "ico": "skills/css3.png", "url": "https://www.w3.org/Style/CSS/" },
-    { "name": "SCSS", "ico": "skills/scss.png", "url": "https://sass-lang.com/" },
-    { "name": "ReactJS", "ico": "skills/react.png", "url": "https://reactjs.org" },
-    { "name": "Preact", "ico": "skills/preact.png", "url": "https://preactjs.com/" },
-    { "name": "Redux Toolkit", "ico": "skills/redux.png", "url": "https://redux-toolkit.js.org/" },
-    { "name": "Bootstrap", "ico": "skills/bootstrap.png", "url": "https://getbootstrap.com/" },
-    { "name": "ViteJS", "ico": "skills/vite.svg", "url": "https://vitejs.dev/" },
-    { "name": "RegExp", "ico": "skills/regexp.png", "url": "https://en.wikipedia.org/wiki/Regular_expression" }
-  ]
-}
+[
+  { "name": "JavaScript", "ico": "skills/js.png", "url": "https://262.ecma-international.org/" },
+  { "name": "TypeScript", "ico": "skills/ts.png", "url": "https://www.typescriptlang.org" },
+  { "name": "NodeJS", "ico": "skills/node.png", "url": "https://nodejs.dev/" },
+  { "name": "Git", "ico": "skills/git.png", "url": "https://git-scm.com/" },
+  { "name": "Yarn", "ico": "skills/yarn.png", "url": "https://yarnpkg.com/" },
+  { "name": "HTML5", "ico": "skills/html5.png", "url": "https://html.spec.whatwg.org/" },
+  { "name": "CSS", "ico": "skills/css3.png", "url": "https://www.w3.org/Style/CSS/" },
+  { "name": "SCSS", "ico": "skills/scss.png", "url": "https://sass-lang.com/" },
+  { "name": "ReactJS", "ico": "skills/react.png", "url": "https://reactjs.org" },
+  { "name": "Preact", "ico": "skills/preact.png", "url": "https://preactjs.com/" },
+  { "name": "Redux Toolkit", "ico": "skills/redux.png", "url": "https://redux-toolkit.js.org/" },
+  { "name": "Bootstrap", "ico": "skills/bootstrap.png", "url": "https://getbootstrap.com/" },
+  { "name": "ViteJS", "ico": "skills/vite.svg", "url": "https://vitejs.dev/" },
+  { "name": "RegExp", "ico": "skills/regexp.png", "url": "https://en.wikipedia.org/wiki/Regular_expression" }
+]

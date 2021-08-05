@@ -1,4 +1,5 @@
-import data from '../data/projects.json'
+import projects from '../data/projects.json'
+import { useTranslation } from '../hooks'
 
 interface ILogoLink {
     url: string | null
@@ -35,32 +36,43 @@ const handleScroll = (event: MouseEvent) => {
 };
 
 export const Projects = () => {
-    const { header, description, projectsList } = data;
+    const { t } = useTranslation('projects')
 
     return (
         <section>
             <div class="container grid-2">
             <div class="p-5 text-end">
-                    <p class="text-bold">{header.toUpperCase()}</p>
-                    <p class="fs-90">{description}</p>
+                    <p class="text-bold">{t('header').toUpperCase()}</p>
+                    <p class="fs-90">{t('description')}</p>
                 </div>
                 <div class="p-5 projects-grid">
-                        {projectsList.map((project) => {
-                            const { name, url, sourceCodeUrl, technologies } = project
+                        {projects.map((project) => {
+                            const { name, url, sourceCodeUrl, technologiesCount } = project
 
                             return (
                                 <details key={name}>
+
+                                    <summary
+                                        class="text-primary"
+                                        onClick={handleScroll}
+                                    >
+                                        {t(`${name}.projectName`)}
+                                    </summary>
+
                                     <div class="d-flex gap-x-2 justify-between pl-2 align-center">
-                                        <p>Технологии:</p>
+                                        <p>{t('technologies')}:</p>
                                         <div>
                                             <LogoLink url={url} src="logo_www.png" />
                                             <LogoLink url={sourceCodeUrl} src="logo_github.png" />
                                         </div>
                                     </div>
-                                    <summary class="text-primary" onClick={handleScroll}>{name}</summary>
+
                                     <ul>
-                                        {technologies.map((t) => <li key={t} class="fs-90">{t}</li>)}
+                                        {Array.from({ length: technologiesCount }).map((_, i) => (
+                                            <li key={i} class="fs-90">{t(`${name}.tech-${i}`)}</li>
+                                            ))}
                                     </ul>
+
                                 </details>
                             )
                         })}

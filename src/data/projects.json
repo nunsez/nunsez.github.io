@@ -1,56 +1,38 @@
-{
-  "header": "Projects",
-  "description": "What I've done",
-  "projectsList": [
-    { "name": "CLI-приложение \"Игры разума\"", "url": null, "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl1", "technologies": [
-      "Настройка окружения (NodeJS, NPM, ESLint, JS modules, Makefile)",
-      "Система контроля версий Git",
-      "Непрерывная интеграция / CI (Github Actions)",
-      "Подключение метрик (Codeclimate)",
-      "Публикация и локальная установка npm-пакета"
-    ] },
-    { "name": "Утилита \"Вычислитель отличий\"", "url": null, "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl2", "technologies": [
-      "Работа с файловой структурой",
-      "Работа с древовидными структурами данных",
-      "Автоматической тестирование (Jest)",
-      "Семантическое версионирование",
-      "Оформление кода (Prettier, Editorconfig)"
-    ] },
-    { "name": "Веб-приложение \"RSS агрегатор\"", "url": "https://frontend-project-lvl3-85wxvc5x0-nunsez.vercel.app/", "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl3", "technologies": [
-      "Настройка конфигурации Webpack",
-      "Работа с CSS фреймворком Bootstrap",
-      "Асинхронный JavaScript (Promises, Timeouts)",
-      "Обработка ошибок AJAX запросов",
-      "Деплой приложения (Vercel)",
-      "Интернационализация текстов приложения (i18next)",
-      "Валидация данных формы (Yup)",
-      "Работа с DOM API (селекторы, события, генерация HTML)",
-      "Реализация паттерна MVC",
-      "Автоматное программирование"
-    ] },
-    { "name": "Веб-приложение \"Slack чат\"", "url": "https://serene-refuge-53938.herokuapp.com/", "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl4", "technologies": [
-      "Работа с библиотеками пользовательских интерфейсов (React, React Bootstrap)",
-      "Работа с менеджером состояния (Redux Toolkit, Redux AsyncThunk)",
-      "Использование архитектуры REST",
-      "Работа с протоколом WebSocket",
-      "Работа с формами (Formik)",
-      "Деплой приложения (Heroku)",
-      "Работа с переменными окружения (Dotenv)",
-      "Мониторинг ошибок в реальном времени (Rollbar)"
-    ] },
-    { "name": "Статический сайт \"Когнитивные искажения\"", "url": "https://nunsez-layout-1.surge.sh/", "sourceCodeUrl": "https://github.com/nunsez/layout-designer-project-lvl1", "technologies": [
-      "Подключение линтеров для HTML / CSS",
-      "Использование семантических тегов HTML",
-      "Применение концепции Atomic CSS",
-      "Деплой сайта (Surge)"
-    ] },
-    { "name": "Веб-приложение \"Конвертер Валют\"", "url": "https://money-converter.herokuapp.com/", "sourceCodeUrl": "https://github.com/nunsez/currency-convertion", "technologies": [
-      "Cоздание шаблона приложения (Create React App)",
-      "Разработка приложения на TypeScript",
-      "Работа с библиотеками пользовательских интерфейсов (React, React Bootstrap)",
-      "Работа с менеджером состояния (Redux Toolkit, Redux AsyncThunk)",
-      "Запрос данных с публичных API через AJAX",
-      "Деплой приложения (Heroku)"
-    ] }
-  ]
-}
+[
+  {
+    "name": "Brain Games",
+    "url": null,
+    "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl1",
+    "technologiesCount": 5
+  },
+  {
+    "name": "Difference Generator",
+    "url": null,
+    "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl2",
+    "technologiesCount": 5
+  },
+  {
+    "name": "RSS Reader",
+    "url": "https://frontend-project-lvl3-85wxvc5x0-nunsez.vercel.app/",
+    "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl3",
+    "technologiesCount": 10
+  },
+  {
+    "name": "Slack Chat",
+    "url": "https://serene-refuge-53938.herokuapp.com/",
+    "sourceCodeUrl": "https://github.com/nunsez/frontend-project-lvl4",
+    "technologiesCount": 8
+  },
+  {
+    "name": "Cognitive Biases",
+    "url": "https://nunsez-layout-1.surge.sh/",
+    "sourceCodeUrl": "https://github.com/nunsez/layout-designer-project-lvl1",
+    "technologiesCount": 4
+  },
+  {
+    "name": "Currency Converter",
+    "url": "https://money-converter.herokuapp.com/",
+    "sourceCodeUrl": "https://github.com/nunsez/currency-convertion",
+    "technologiesCount": 6
+  }
+]

@@ -1,17 +1,19 @@
-import data from '../data/about.json';
+import about from '../data/about.json';
+import { useTranslation } from '../hooks'
 
 export const About = () => {
-    const { header, description, content } = data;
+    const { t } = useTranslation('about');
+    const { paragraphsCount } = about;
 
     return (
         <section>
             <div class="container grid-2">
                 <div class="p-5 text-end">
-                    <p class="text-bold">{header.toUpperCase()}</p>
-                    <p class="fs-90">{description}</p>
+                    <p class="text-bold">{t('header').toUpperCase()}</p>
+                    <p class="fs-90">{t('description')}</p>
                 </div>
                 <div class="p-5">
-                    {content.map((i) => <p key={i}>{i}</p>)}
+                    {Array.from({ length: paragraphsCount }).map((_, i) => <p key={i}>{t(`par-${i}`)}</p>)}
                 </div>
             </div>
         </section>
