@@ -3,7 +3,7 @@ import { useTranslation } from '../hooks'
 
 export const Hero = () => {
     const { t } = useTranslation('hero')
-    const { avatar, socialMedia, contacts } = hero;
+    const { avatar, socialMedia, contacts } = hero
 
     return (
         <section>

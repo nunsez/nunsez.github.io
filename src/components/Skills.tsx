@@ -13,7 +13,7 @@ export const Skills = () => {
                 </div>
                 <div class="p-5 skills-grid">
                         {skills.map((skill) => {
-                            const { name, ico, url } = skill;
+                            const { name, ico, url } = skill
 
                             return (
                                 <a

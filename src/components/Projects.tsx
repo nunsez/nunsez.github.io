@@ -16,12 +16,12 @@ const LogoLink = ({ url, src }: ILogoLink) => {
             <img src={src} height="25" class="ml-2 rounded" />
         </a>
     )
-};
+}
 
 const handleScroll = (event: MouseEvent) => {
     event.preventDefault()
 
-    const { currentTarget } = event;
+    const { currentTarget } = event
     const details = (currentTarget as HTMLElement).parentElement as HTMLDetailsElement
 
     details.toggleAttribute('open')
@@ -31,9 +31,9 @@ const handleScroll = (event: MouseEvent) => {
     const boxOverflow = rect.bottom - clientHeight
 
     if (boxOverflow > 0) {
-        window.scrollBy({ top: boxOverflow });
+        window.scrollBy({ top: boxOverflow })
     }
-};
+}
 
 export const Projects = () => {
     const { t } = useTranslation('projects')

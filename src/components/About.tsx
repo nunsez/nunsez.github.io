@@ -1,9 +1,9 @@
-import about from '../data/about.json';
+import about from '../data/about.json'
 import { useTranslation } from '../hooks'
 
 export const About = () => {
-    const { t } = useTranslation('about');
-    const { paragraphsCount } = about;
+    const { t } = useTranslation('about')
+    const { paragraphsCount } = about
 
     return (
         <section>
