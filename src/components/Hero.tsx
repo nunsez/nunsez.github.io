@@ -28,14 +28,18 @@ export const Hero = () => {
                         </div>
                     </div>
                     <div class="contacts d-flex justify-between align-center flex-wrap gap-x-3">
-                        {contacts.map((i) => (
-                            <div key={i.name}>
-                                <p class="text-bold">{i.name}</p>
-                                <p class="fs-90">
-                                    <a href={i.url}>{i.content}</a>
-                                </p>
-                            </div>
-                        ))}
+                        {contacts.map((contact) => {
+                            const { name, url, content } = contact
+
+                            return (
+                                <div key={name}>
+                                    <p class="text-bold">{t(`${name}`)}</p>
+                                    <p class="fs-90">
+                                        <a href={url}>{t(`${content}`)}</a>
+                                    </p>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
             </div>

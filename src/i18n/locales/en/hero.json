@@ -1,5 +1,11 @@
 {
   "firstName": "Alexander",
   "lastName": "Mandrikov",
-  "profession": "<Frontend Developer />"
+  "profession": "<Frontend Developer />",
+  "Location": "Location",
+  "Krasnoyarsk, Russia": "Krasnoyarsk, Russia",
+  "Web": "Web",
+  "nunsez.github.io": "nunsez.github.io",
+  "Email": "Email",
+  "mad.nunsez@gmail.com": "mad.nunsez@gmail.com"
 }
