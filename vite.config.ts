@@ -8,6 +8,11 @@ const viteConfig: UserConfig = {
         jsxInject: `import { h, Fragment } from 'preact'`,
     },
     plugins: [prefresh()],
+    resolve: {
+        alias: {
+            react: 'preact/compat'
+        },
+    },
 }
 
 export default viteConfig
