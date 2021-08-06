@@ -1,8 +1,9 @@
 import hero from '../data/hero.json'
-import { useTranslation } from '../hooks'
+import { useTranslation } from 'react-i18next'
+import { Locales } from './Locales'
 
 export const Hero = () => {
-    const { t } = useTranslation('hero')
+    const { t } = useTranslation()
     const { avatar, socialMedia, contacts } = hero
 
     return (
@@ -11,14 +12,15 @@ export const Hero = () => {
                 <div class="avatar p-5">
                     <img src={avatar.ico} alt="Avatar" width="200" height="200" />
                 </div>
-                <div class="p-5 mt-auto">
+                <div class="p-5 mt-auto relative">
+                    <Locales />
                     <h1 class="name">
-                        <span class="first-name">{t('firstName')}</span>
+                        <span class="first-name">{t('hero.firstName')}</span>
                         <br/>
-                        <span class="last-name text-primary">{t('lastName')}</span>
+                        <span class="last-name text-primary">{t('hero.lastName')}</span>
                     </h1>
                     <div class="d-flex justify-between align-center flex-wrap">
-                        <p class="mr-3 text-italic">{t('profession')}</p>
+                        <p class="mr-3 text-italic">{t('hero.profession')}</p>
                         <div class="d-flex gap-x-2">
                             {socialMedia.map((i) => (
                                     <a href={i.url} target="_blank" key={i.name} >
@@ -33,9 +35,9 @@ export const Hero = () => {
 
                             return (
                                 <div key={name}>
-                                    <p class="text-bold">{t(`${name}`)}</p>
+                                    <p class="text-bold">{t(`hero.${name}`)}</p>
                                     <p class="fs-90">
-                                        <a href={url}>{t(`${content}`)}</a>
+                                        <a href={url}>{t(`hero.${content}`)}</a>
                                     </p>
                                 </div>
                             )

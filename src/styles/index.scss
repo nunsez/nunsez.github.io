@@ -108,8 +108,22 @@ a {
     }
 }
 
+.languages {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    a {
+        cursor: pointer;
+    }
+}
+
 .rounded {
     border-radius: 25%;
+}
+
+.relative {
+    position: relative;
 }
 
 .d-flex {
