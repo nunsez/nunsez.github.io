@@ -10,7 +10,7 @@ const viteConfig: UserConfig = {
     plugins: [prefresh()],
     resolve: {
         alias: {
-            react: 'preact/compat'
+            react: 'preact/compat',
         },
     },
 }
