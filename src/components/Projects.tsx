@@ -1,5 +1,5 @@
 import projects from '../data/projects.json'
-import { useTranslation } from '../hooks'
+import { useTranslation } from 'react-i18next'
 
 interface ILogoLink {
     url: string | null
@@ -36,14 +36,14 @@ const handleScroll = (event: MouseEvent) => {
 }
 
 export const Projects = () => {
-    const { t } = useTranslation('projects')
+    const { t } = useTranslation()
 
     return (
         <section>
             <div class="container grid-2">
             <div class="p-5 text-end">
-                    <p class="text-bold">{t('header').toUpperCase()}</p>
-                    <p class="fs-90">{t('description')}</p>
+                    <p class="text-bold">{t('projects.header').toUpperCase()}</p>
+                    <p class="fs-90">{t('projects.description')}</p>
                 </div>
                 <div class="p-5 projects-grid">
                         {projects.map((project) => {
@@ -56,11 +56,11 @@ export const Projects = () => {
                                         class="text-primary"
                                         onClick={handleScroll}
                                     >
-                                        {t(`${name}.projectName`)}
+                                        {t(`projects.${name}.projectName`)}
                                     </summary>
 
                                     <div class="d-flex gap-x-2 justify-between pl-2 align-center">
-                                        <p>{t('technologies')}:</p>
+                                        <p>{t('projects.technologies')}:</p>
                                         <div>
                                             <LogoLink url={url} src="logo_www.png" />
                                             <LogoLink url={sourceCodeUrl} src="logo_github.png" />
@@ -69,7 +69,7 @@ export const Projects = () => {
 
                                     <ul>
                                         {Array.from({ length: technologiesCount }).map((_, i) => (
-                                            <li key={i} class="fs-90">{t(`${name}.tech-${i}`)}</li>
+                                            <li key={i} class="fs-90">{t(`projects.${name}.tech-${i}`)}</li>
                                             ))}
                                     </ul>
 

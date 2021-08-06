@@ -5,17 +5,10 @@ import './styles/index.scss'
 import { App } from './App'
 import i18nextInit from './i18n'
 
-import { I18nContext } from './i18nContext'
-
 const init = async () => {
-    const i18n = await i18nextInit()
+    await i18nextInit()
 
-    render(
-        <I18nContext.Provider value={{ i18n }}>
-            <App />
-        </I18nContext.Provider>,
-        document.body,
-    )
+    render(<App />, document.body)
 }
 
 init()

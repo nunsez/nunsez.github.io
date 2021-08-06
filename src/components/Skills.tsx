@@ -1,15 +1,15 @@
 import skills from '../data/skills.json'
-import { useTranslation } from '../hooks'
+import { useTranslation } from 'react-i18next'
 
 export const Skills = () => {
-    const { t } = useTranslation('skills')
+    const { t } = useTranslation()
 
     return (
         <section>
             <div class="container grid-2">
                 <div class="p-5 text-end">
-                    <p class="text-bold">{t('header').toUpperCase()}</p>
-                    <p class="fs-90">{t('description')}</p>
+                    <p class="text-bold">{t('skills.header').toUpperCase()}</p>
+                    <p class="fs-90">{t('skills.description')}</p>
                 </div>
                 <div class="p-5 skills-grid">
                         {skills.map((skill) => {
