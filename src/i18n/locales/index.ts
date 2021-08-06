@@ -6,9 +6,9 @@ const resources = {
     ru,
 }
 
-export const avaibleLanguages = [
-    { languageName: 'en', ico: '' },
-    { languageName: 'en', ico: '' },
+export const locales = [
+    { locale: 'en', ico: 'flags/usa.gif' },
+    { locale: 'ru', ico: 'flags/russia.gif' },
 ]
 
 export default resources
