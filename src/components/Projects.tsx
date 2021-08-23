@@ -31,7 +31,7 @@ const handleScroll = (event: MouseEvent) => {
     const boxOverflow = rect.bottom - clientHeight
 
     if (boxOverflow > 0) {
-        window.scrollBy({ top: boxOverflow })
+        window.scrollBy({ top: boxOverflow, behavior: 'smooth' })
     }
 }
 
