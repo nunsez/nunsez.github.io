@@ -34,5 +34,11 @@
     "url": "https://money-converter.herokuapp.com/",
     "sourceCodeUrl": "https://github.com/nunsez/currency-convertion",
     "technologiesCount": 6
+  },
+  {
+    "name": "Page Loader",
+    "url": null,
+    "sourceCodeUrl": "https://github.com/nunsez/backend-project-lvl3",
+    "technologiesCount": 5
   }
 ]

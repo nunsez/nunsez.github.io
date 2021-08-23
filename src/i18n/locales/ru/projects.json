@@ -57,5 +57,13 @@
     "tech-3": "Работа с менеджером состояния (Redux Toolkit, Redux AsyncThunk)",
     "tech-4": "Запрос данных с публичных API через AJAX",
     "tech-5": "Деплой приложения (Heroku)"
+  },
+  "Page Loader": {
+    "projectName": "Утилита \"Загрузчик страниц\"",
+    "tech-0": "Работа с файловой структурой",
+    "tech-1": "Асинхронный JavaScript (Promises)",
+    "tech-2": "Автоматической тестирование (Jest)",
+    "tech-3": "Непрерывная интеграция / CI (Github Actions)",
+    "tech-4": "Подключение метрик (Codeclimate)"
   }
 }
