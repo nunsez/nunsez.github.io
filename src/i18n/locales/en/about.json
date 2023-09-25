@@ -1,7 +1,9 @@
 {
   "header": "Intro",
   "description": "A few lines about me",
-  "par-0": "In the development process, I use the ECMAScript 2015+ standard. I stick to the functional style when writing code.",
-  "par-1": "I was trained as a front-end programmer on the Hexlet educational portal.",
-  "par-2": "I help newbies learn the profession of a programmer by answering questions in the Hexlet community. Currently I'm reading the book by S. McConnell \"Code Perfect\". I take part in Open Source development."
+  "par-0": "Work experience: 2+ years",
+  "par-1": "Currently working on Ruby on Rails + Typescript (SolidJs) + PostreSQL stack",
+  "par-2": "I have projects on Elixir/Phoenix",
+  "par-3": "I am receptive to new tools, methods and circumstances",
+  "par-4": "I am ready for remote work / relocation"
 }
