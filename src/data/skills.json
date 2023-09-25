@@ -1,16 +1,14 @@
 [
-  { "name": "JavaScript", "ico": "skills/js.png", "url": "https://262.ecma-international.org/" },
+  { "name": "Ruby", "ico": "skills/ruby.png", "url": "https://www.ruby-lang.org/" },
+  { "name": "Ruby On Rails", "ico": "skills/rubyonrails.png", "url": "https://rubyonrails.org/" },
+  { "name": "Elixir", "ico": "skills/elixir.png", "url": "https://elixir-lang.org/" },
+  { "name": "Phoenix", "ico": "skills/phoenixframework.png", "url": "https://www.phoenixframework.org/" },
   { "name": "TypeScript", "ico": "skills/ts.png", "url": "https://www.typescriptlang.org" },
   { "name": "NodeJS", "ico": "skills/node.png", "url": "https://nodejs.dev/" },
-  { "name": "Git", "ico": "skills/git.png", "url": "https://git-scm.com/" },
-  { "name": "Yarn", "ico": "skills/yarn.png", "url": "https://yarnpkg.com/" },
-  { "name": "HTML5", "ico": "skills/html5.png", "url": "https://html.spec.whatwg.org/" },
-  { "name": "CSS3", "ico": "skills/css3.png", "url": "https://www.w3.org/Style/CSS/" },
-  { "name": "SCSS", "ico": "skills/scss.png", "url": "https://sass-lang.com/" },
+  { "name": "SolidJS", "ico": "skills/solidjs.svg", "url": "https://www.solidjs.com/" },
   { "name": "ReactJS", "ico": "skills/react.png", "url": "https://reactjs.org" },
   { "name": "PreactJS", "ico": "skills/preact.png", "url": "https://preactjs.com/" },
-  { "name": "Redux Toolkit", "ico": "skills/redux.png", "url": "https://redux-toolkit.js.org/" },
-  { "name": "Bootstrap", "ico": "skills/bootstrap.png", "url": "https://getbootstrap.com/" },
-  { "name": "ViteJS", "ico": "skills/vite.svg", "url": "https://vitejs.dev/" },
-  { "name": "RegExp", "ico": "skills/regexp.png", "url": "https://en.wikipedia.org/wiki/Regular_expression" }
+  { "name": "PostgreSQL", "ico": "skills/postgresql.png", "url": "https://www.postgresql.org/" },
+  { "name": "Docker", "ico": "skills/docker.png", "url": "https://www.docker.com/" },
+  { "name": "Git", "ico": "skills/git.png", "url": "https://git-scm.com/" }
 ]
