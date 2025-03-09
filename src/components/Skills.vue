@@ -2,7 +2,7 @@
   <section>
     <div class="container grid-2">
       <div class="p-5 text-end">
-        <p class="text-bold">{{ t("header") }}</p>
+        <p class="text-bold">{{ t("header").toUpperCase() }}</p>
       </div>
       <div class="p-5 skills-grid">
         <Skill name="Ruby" ico="/skills/ruby.png" href="https://rubyonrails.org/" />
