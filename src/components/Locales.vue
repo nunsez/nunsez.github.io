@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import { useI18n } from "vue-i18n";
-
-const { locale } = useI18n();
-
-const setLocale = (value: string) => {
-  locale.value = value;
-};
-</script>
-
 <template>
   <div class="languages d-flex gap-x-2 ml-2">
     <a @click="() => setLocale('en')">
@@ -18,3 +8,13 @@ const setLocale = (value: string) => {
     </a>
   </div>
 </template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { locale } = useI18n();
+
+const setLocale = (value: string) => {
+  locale.value = value;
+};
+</script>
