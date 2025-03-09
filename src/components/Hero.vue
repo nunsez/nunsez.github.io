@@ -65,7 +65,6 @@ en:
   address: Krasnoyarsk, Russia
   site: Web
   email: Email
-
 ru:
   firstName: Александр
   lastName: Мандриков
