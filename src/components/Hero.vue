@@ -2,7 +2,7 @@
   <section>
     <div class="container grid-2">
       <div class="avatar p-5">
-        <img src="../assets/avatar.png" alt="Avatar" width="200" height="200" />
+        <img src="/avatar.png" alt="Avatar" width="200" height="200" />
       </div>
       <div class="p-5 mt-auto relative">
         <Locales />
@@ -15,13 +15,13 @@
           <p class="mr-3 text-italic">&lt;Web Developer (Backend) /&gt;</p>
           <div class="d-flex gap-x-2">
             <a href="https://github.com/nunsez" target="_blank" rel="noopener">
-              <img src="../assets/logo_github.png" width="30" height="30" class="rounded" />
+              <img src="/logo_github.png" width="30" height="30" class="rounded" />
             </a>
             <a href="https://www.linkedin.com/in/alex-mandrikov" target="_blank" rel="noopener">
-              <img src="../assets/logo_linkedin.png" width="30" height="30" class="rounded" />
+              <img src="/logo_linkedin.png" width="30" height="30" class="rounded" />
             </a>
             <a href="https://career.habr.com/nunsez" target="_blank" rel="noopener">
-              <img src="../assets/logo_habr_career.png" width="30" height="30" class="rounded" />
+              <img src="/logo_habr_career.png" width="30" height="30" class="rounded" />
             </a>
           </div>
         </div>

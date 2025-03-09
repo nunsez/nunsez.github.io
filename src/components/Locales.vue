@@ -11,10 +11,10 @@ const setLocale = (value: string) => {
 <template>
   <div class="languages d-flex gap-x-2 ml-2">
     <a @click="() => setLocale('en')">
-      <img src="../assets/flags/usa.gif" width="30" height="23" class="rounded" />
+      <img src="/flags/usa.gif" width="30" height="23" class="rounded" />
     </a>
     <a @click="() => setLocale('ru')">
-      <img src="../assets/flags/russia.gif" width="30" height="23" class="rounded" />
+      <img src="/flags/russia.gif" width="30" height="23" class="rounded" />
     </a>
   </div>
 </template>
