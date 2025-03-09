@@ -3,7 +3,6 @@
     <div class="container grid-2">
       <div class="p-5 text-end">
         <p class="text-bold">{{ t("header").toUpperCase() }}</p>
-        <p class="fs-90">{{ t("description") }}</p>
       </div>
       <div class="p-5 preline">{{ t("content") }}</div>
     </div>
