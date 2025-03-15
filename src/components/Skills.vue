@@ -30,6 +30,21 @@ import Skill from "./Skill.vue";
 const { t } = useI18n();
 </script>
 
+<style scoped>
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, 10rem);
+  gap: 2rem;
+  justify-content: space-between;
+
+  .skills-item {
+    display: flex;
+    align-items: center;
+  }
+}
+</style>
+
 <i18n lang="yaml">
 en:
   header: Skills

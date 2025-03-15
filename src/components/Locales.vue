@@ -18,3 +18,15 @@ const setLocale = (value: string) => {
   locale.value = value;
 };
 </script>
+
+<style scoped>
+.languages {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  a {
+    cursor: pointer;
+  }
+}
+</style>

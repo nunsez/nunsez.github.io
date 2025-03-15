@@ -76,48 +76,7 @@ a {
   }
 }
 
-.avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    border-radius: 100%;
-  }
-}
-
-.name {
-  font-size: 2.5rem;
-  line-height: 1.1;
-
-  .first-name {
-    font-weight: normal;
-  }
-
-  .last-name {
-    letter-spacing: 0.1em;
-  }
-}
-
-.contacts {
-  margin-top: 5rem;
-  border-top: 1px solid var(--dark);
-}
-
-.skills-grid {
-  display: grid;
-
-  grid-template-columns: repeat(auto-fill, 10rem);
-  gap: 2rem;
-  justify-content: space-between;
-
-  .skills-item {
-    display: flex;
-    align-items: center;
-  }
-}
-
-.projects-grid {
+/* .projects-grid {
   details {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
@@ -130,17 +89,7 @@ a {
       list-style-type: "-  ";
     }
   }
-}
-
-.languages {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-
-  a {
-    cursor: pointer;
-  }
-}
+} */
 
 .rounded {
   border-radius: 25%;

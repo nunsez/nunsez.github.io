@@ -57,6 +57,36 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 </script>
 
+<style scoped>
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    border-radius: 100%;
+  }
+}
+
+.name {
+  font-size: 2.5rem;
+  line-height: 1.1;
+
+  .first-name {
+    font-weight: normal;
+  }
+
+  .last-name {
+    letter-spacing: 0.1em;
+  }
+}
+
+.contacts {
+  margin-top: 5rem;
+  border-top: 1px solid var(--dark);
+}
+</style>
+
 <i18n lang="yaml">
 en:
   firstName: Alexander
