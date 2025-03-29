@@ -12,7 +12,7 @@
           <span class="last-name text-primary">{{ t("lastName") }}</span>
         </h1>
         <div class="d-flex justify-between align-center flex-wrap">
-          <p class="mr-3 text-italic">&lt;Web Developer (Backend) /&gt;</p>
+          <p class="mr-3 text-italic">Web Developer (Backend)</p>
           <div class="d-flex gap-x-2">
             <a href="https://github.com/nunsez" target="_blank" rel="noopener">
               <img src="/logo_github.png" width="30" height="30" class="rounded" />
