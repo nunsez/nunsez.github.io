@@ -4,6 +4,7 @@
   </header>
   <main>
     <About />
+    <WorkExperience />
     <Skills />
   </main>
 </template>
@@ -12,4 +13,5 @@
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
+import WorkExperience from "./components/WorkExperience.vue";
 </script>

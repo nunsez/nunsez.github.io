@@ -103,6 +103,10 @@ a {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -127,8 +131,16 @@ a {
   column-gap: var(--spacer-3);
 }
 
+.gap-y-5 {
+  row-gap: var(--spacer-5);
+}
+
 .mt-auto {
   margin-top: auto;
+}
+
+.mt-1 {
+  margin-top: var(--spacer-1);
 }
 
 .mr-2 {
@@ -137,6 +149,10 @@ a {
 
 .mr-3 {
   margin-right: var(--spacer-3);
+}
+
+.mb-1 {
+  margin-bottom: var(--spacer-1);
 }
 
 .ml-2 {
